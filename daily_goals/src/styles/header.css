@@ -1,0 +1,62 @@
+.todo{
+    margin: 0;
+    font-size: 1.8rem;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 2rem;
+    padding: 10px;
+}
+.items a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+header{
+    height: 8vh;
+    color: white;
+    background-color: #A076F9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    gap: 1.5rem;
+
+}
+.primary{
+    padding: 8px;
+    border-radius: 5px;
+    color: #A076F9;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.secondary{
+    padding: 8px;
+    border-radius: 5px;
+    color: #A076F9;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+.primary:hover{
+    color: white;
+    background-color: #A076F9;
+}
+.secondary:hover{
+    color: white;
+    background-color: #A076F9;
+}

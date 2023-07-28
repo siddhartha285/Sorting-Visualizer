@@ -1,0 +1,28 @@
+.task{
+    display: flex;
+    margin: 40px 0px;
+    align-items: center;
+
+}
+
+.task>div{
+    width: 100%;
+
+}
+
+.task span{
+    color: rgba(0,0,0,0.573);
+}
+
+.task button{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+    background-color: #F31559;
+}
